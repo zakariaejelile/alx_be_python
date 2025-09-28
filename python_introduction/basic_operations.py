@@ -7,5 +7,5 @@ product = int(number1) * int(number2)
 
 
 print(f"Addition of {number1} and {number2} is {sum}")
-print(f"Substraction of {number2} and {number1} is {subtract}")
+print(f"Subtraction of {number2} and {number1} is {subtract}")
 print(f"Multiplication of {number1} and {number2} is {product}")
