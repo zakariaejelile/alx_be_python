@@ -30,8 +30,8 @@ class Library:
         for book in self.books:
             if isinstance(book, EBook):
 
-                print(f"EBook: {book.title}, Author: {book.author}")
+                print(f"EBook: {book.title} by {book.author}")
             elif isinstance(book, PrintBook):
-                print(f"PrintBook: {book.title}, Author: {book.author}")
+                print(f"PrintBook: {book.title} by {book.author}")
             else:
-                print(f"Book: {book.title}, Author: {book.author}")
+                print(f"Book: {book.title} by {book.author}")
