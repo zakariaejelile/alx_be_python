@@ -20,6 +20,9 @@ class Library:
     def __init__(self):
         self.books = []
 
+    def __str__(self):
+        return f"Library with {len(self.books)} books"
+
     def add_book(self, book):
         self.books.append(book)
 
